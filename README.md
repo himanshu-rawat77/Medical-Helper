@@ -6,7 +6,7 @@ The **Medical Helper Multi-Agent System** is an AI-driven platform designed to a
 
 ## 🎥 Demo Video
 
-[![Watch the Demo](https://img.youtube.com/vi/your-video-id/maxresdefault.jpg)](https://www.youtube.com/watch?v=your-video-id)
+[![Watch the Demo]]([https://www.youtube.com/watch?v=your-video-id](https://drive.google.com/file/d/1izAtX8YfSZ9UjjFufOLUUS4yYMG88UyU/view?usp=sharing))
 
 👉 *Click the image above to watch the demo video.*  
 (*Replace `your-video-id` with the actual YouTube video ID or update the link accordingly.*)
@@ -47,4 +47,4 @@ The system follows a **multi-agent architecture**, consisting of:
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/yourusername/medical-helper-mas.git
-   cd medical-helper-mas
+   cd medical-helper
