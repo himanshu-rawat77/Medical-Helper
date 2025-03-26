@@ -1,29 +1,50 @@
-## agents.py
-This file contains the definition of custom agents.
-To create a Agent, you need to define the following:
-1. Role: The role of the agent.
-2. Backstory: The backstory of the agent.
-3. Goal: The goal of the agent.
-4. Tools: The tools that the agent has access to (optional).
-5. Allow Delegation: Whether the agent can delegate tasks to other agents(optional).
+# Medical Helper Multi-Agent System
 
-    [More Details about Agent](https://docs.crewai.com/concepts/agents).
+## 📌 Overview
 
-## task.py
-This file contains the definition of custom tasks.
-To Create a task, you need to define the following :
-1. description: A string that describes the task.
-2. agent: An agent object that will be assigned to the task.
-3. expected_output: The expected output of the task.
+The **Medical Helper Multi-Agent System** is an AI-driven platform designed to assist healthcare professionals, patients, and researchers by automating medical decision support, patient monitoring, and knowledge discovery. The system leverages multiple intelligent agents working collaboratively to enhance healthcare efficiency.
 
-    [More Details about Task](https://docs.crewai.com/concepts/tasks).
+## 🎥 Demo Video
 
-## crew (main.py)
-This is the main file that you will use to run your custom crew.
-To create a Crew , you need to define Agent ,Task and following Parameters:
-1. Agent: List of agents that you want to include in the crew.
-2. Task: List of tasks that you want to include in the crew.
-3. verbose: If True, print the output of each task.(default is False).
-4. debug: If True, print the debug logs.(default is False).
+[![Watch the Demo](https://img.youtube.com/vi/your-video-id/maxresdefault.jpg)](https://www.youtube.com/watch?v=your-video-id)
 
-    [More Details about Crew](https://docs.crewai.com/concepts/crew).
+👉 *Click the image above to watch the demo video.*  
+(*Replace `your-video-id` with the actual YouTube video ID or update the link accordingly.*)
+
+## 🚀 Features
+
+- **🩺 Symptom Analysis & Diagnosis** – AI-powered agents analyze symptoms and provide possible diagnoses.
+- **📊 Patient Monitoring** – Continuous tracking of vitals and alerts for critical conditions.
+- **💊 Medication Management** – Automated reminders and dosage tracking.
+- **📚 Medical Knowledge Base** – Access to verified medical literature and recommendations.
+- **🔍 Research Assistant** – Helps in medical literature review and data analysis.
+- **🗣️ Virtual Health Assistant** – Conversational AI for basic patient queries.
+- **🖥️ Integration with EHRs** – Seamless connectivity with Electronic Health Records.
+
+## 🏗️ System Architecture
+
+The system follows a **multi-agent architecture**, consisting of:
+
+1. **Patient Agent** – Interfaces with patients for symptom input and monitoring.
+2. **Diagnosis Agent** – Uses AI models to analyze symptoms and suggest possible conditions.
+3. **Doctor Agent** – Assists medical professionals with decision-making and research.
+4. **Medication Agent** – Ensures medication adherence and alerts for side effects.
+5. **Knowledge Agent** – Searches and retrieves medical information from reliable sources.
+6. **Communication Agent** – Manages interactions between agents and external APIs.
+
+## 🔧 Tech Stack
+
+- **Programming Languages**: Python, JavaScript (for frontend interfaces)
+- **AI & ML**: TensorFlow, PyTorch, OpenAI API
+- **Databases**: PostgreSQL, MongoDB
+- **Backend**: FastAPI, Flask, Node.js
+- **Frontend**: React.js, Next.js
+- **Cloud Services**: AWS, Firebase
+- **IoT Integration**: Raspberry Pi, Arduino (for patient monitoring)
+
+## ⚙️ Installation
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/yourusername/medical-helper-mas.git
+   cd medical-helper-mas
