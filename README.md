@@ -6,7 +6,7 @@ The **Medical Helper Multi-Agent System** is an AI-driven platform designed to a
 
 ## 🎥 Demo Video
 
-[![Watch the Demo](https://drive.google.com/file/d/1izAtX8YfSZ9UjjFufOLUUS4yYMG88UyU/view?usp=sharing)
+[Watch the Demo](https://drive.google.com/file/d/1izAtX8YfSZ9UjjFufOLUUS4yYMG88UyU/view?usp=sharing)
 
 
 ## 🚀 Features
